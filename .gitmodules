@@ -1,0 +1,6 @@
+[submodule "proxy-list-1"]
+	path = proxy-list-1
+	url = https://github.com/jetkai/proxy-list.git
+[submodule "proxy-list-2"]
+	path = proxy-list-2
+	url = https://github.com/TheSpeedX/PROXY-List.git
