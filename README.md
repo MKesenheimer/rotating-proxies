@@ -11,5 +11,5 @@ https://github.com/TheSpeedX/PROXY-List
 ## Setup
 Run this command to clone this repository:
 ```
-git clone --recurse-submodules https://github.com/MKesenheimer/rotating-proxies.git
+git clone --depth 1 --recurse-submodules https://github.com/MKesenheimer/rotating-proxies.git
 ```
