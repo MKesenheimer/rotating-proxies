@@ -1,4 +1,4 @@
-# proxy-list-to-proxychains.conf
+# rotating-proxies helper scripts
 Converts any common proxy list (IP:PORT) into a proxychains-compatible list (PROTOCOL  	 IP PORT) automatically.
 Additionally, the script `check.py` can be used to check if the proxy is alive.
 
