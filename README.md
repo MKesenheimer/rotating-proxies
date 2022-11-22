@@ -17,15 +17,16 @@ git clone --depth 1 --recurse-submodules https://github.com/MKesenheimer/rotatin
 ## Usage
 Run, for example,
 ```
-python converter.py -i proxies-socks5.txt -o proxychains-socks5.txt -p socks5
-```
-to convert a proxy list to the proxychains format.
-
-Run
-```
 python check.py -i proxy-list-1/online-proxies/txt/proxies-socks5.txt -o alive-proxies-socks5.txt -p socks5 -t 10
 ```
 to check which proxy is alive. Store the results in the file `alive-proxies-socks5.txt`.
+
+Afterwards, run
+```
+python converter.py -i alive-proxies-socks5.txt -o proxychains-socks5.txt -p socks5
+```
+to convert the proxy list to the proxychains format.
+
 
 
 ## Additional commands
